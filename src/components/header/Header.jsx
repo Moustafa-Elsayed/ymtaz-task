@@ -13,9 +13,9 @@ const Header = () => {
         <Image src={BurgerIcon} width={48} height={48} alt="burgerIcon" />
         {/* links */}
 
-        <ul className="flex gap-5 flex-row-reverse">
+        <ul className="flex gap-5 flex-row-reverse text-header font-bold">
           <li>
-            <a href="">الرئيسية</a>
+            <a href="" >الرئيسية</a>
           </li>
           <li>
             <a href="">من نحن</a>
