@@ -5,7 +5,6 @@ const CustomHeroSection = ({ title }) => {
       <div>
         <h1>{title}</h1>
       </div>
-     
     </div>
   );
 };
