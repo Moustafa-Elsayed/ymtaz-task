@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className={` ${inter.className} bg-[#F9F9F9]`}>
+    <main className={` ${inter.className} bg-[#F9F9F9] h-full`}>
       <Header />
       <HeroSection />
     </main>
