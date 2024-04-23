@@ -8,7 +8,7 @@ function HeroSection() {
       <div className="flex justify-center items-center ">
         <SearchBar />
       </div>
-      <div className="p-3 grid grid-cols-3 gap-4 px-32">
+      <div className="p-3 grid grid-cols-3 gap-1 px-40">
         <CustomCard src={Logo} title="موثق" header="متوفر عدد 17" />
         <CustomCard src={Logo} title="موثق" header="متوفر عدد 17" />
         <CustomCard src={Logo} title="موثق" header="متوفر عدد 17" />
