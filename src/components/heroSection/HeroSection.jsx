@@ -1,6 +1,6 @@
 import React from "react";
 import CustomCard from "../sharedComponent/customCard/CustomCard";
-
+import Union from "../../images/Union.svg";
 import SearchBar from "../sharedComponent/searchBar/SearchBar";
 import { useQuery } from 'react-query';
 import axios from 'axios'; 
