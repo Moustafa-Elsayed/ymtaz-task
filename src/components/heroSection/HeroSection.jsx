@@ -26,7 +26,7 @@ function HeroSection() {
         <SearchBar />
       </div>
       <div className="p-3 grid grid-cols-3 gap-4 px-40">
-      {data.data.data.categories.map((person)=>(<CustomCard key={person.id} src={Union} title={person.title} header={person.lawyers_count} />)) }     
+      {data.data.data.categories.map((person)=>(<CustomCard key={person.id} src={person.image} title={person.title} header={person.lawyers_count} href={`/${person.id}`} />)) }     
       </div>
     </>
   );

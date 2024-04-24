@@ -15,7 +15,7 @@ const Header = () => {
 
         <ul className="flex gap-5 flex-row-reverse text-header font-bold">
           <li>
-            <a href="" >الرئيسية</a>
+            <a href="">الرئيسية</a>
           </li>
           <li>
             <a href="">من نحن</a>

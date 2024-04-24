@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import Search from "../../../images/Search.svg"
-import Filter from "../../../images/bars.svg"
+import Search from "../../../images/Search.svg";
+import Filter from "../../../images/bars.svg";
+
 const SearchBar = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-5">
