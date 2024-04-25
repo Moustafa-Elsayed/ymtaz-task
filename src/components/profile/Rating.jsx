@@ -6,8 +6,8 @@ import FRame from "../../images/frame.svg";
 const Rating = () => {
   return (
     <div className="w-[709px]  bg-white  flex flex-col items-end justify-center gap-4 p-3 rounded-lg">
-      <div dir="rtl">تقييم العملاء:</div>
-      <div className="flex flex-row justify-around items-start gap-5 w-full     ">
+      <div dir="rtl" className="text-main_title text-main">تقييم العملاء:</div>
+      <div className="flex flex-row justify-around items-start gap-5 w-full font-normal text-lg  text-second    ">
         <div className="flex flex-col justify-center items-center gap-4">
           <Image src={FRame} width={58} height={40} alt="person" />
           <span>تقييم المنصة </span>

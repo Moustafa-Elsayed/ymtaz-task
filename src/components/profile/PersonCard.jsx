@@ -8,16 +8,16 @@ const PersonCard = ({ data }) => {
   return (
     <>
       <div className="flex flex-col justify-between items-end  bg-white shadow-sm  w-[709px] h-[409px] p-3 rounded-lg">
-        <div>المعلومات الشخصية</div>
+        <div className="text-main_title text-main font-bold">المعلومات الشخصية</div>
         <div className="flex flex-row justify-center items-center gap-3">
           <div className="flex flex-col items-end gap-4">
-            <div>{data.data.lawyer.name}</div>
-            <p className="group-hover:text-white text-header font-normal flex flex-row justify-center items-center gap-3">
+            <div className="font-bold text-xl text-main">{data.data.lawyer.name}</div>
+            <p className="group-hover:text-white text-header  flex flex-row justify-center items-center gap-3 font-normal text-xl  text-second">
               <Image src={Crown} width={16} height={16} alt="alt" />{" "}
               {data.data.lawyer.about}
             </p>
-            <div className="flex flex-row justify-center items-center gap-3">
-              <span> اظهر التقييمات</span>
+            <div className="flex flex-row justify-center items-center gap-3 font-normal text-lg  text-second">
+              <span className="text-black"> اظهر التقييمات</span>
               <span> التقييم العام من 154 من العملاء</span>
               <span>5.00</span>
               <Image src={Rating} width={120} height={24} alt="person" />
@@ -31,7 +31,7 @@ const PersonCard = ({ data }) => {
             className="rounded-full"
           />
         </div>
-        <div className="bg-[#F9F9F9] w-[405px ] h-[100px] p-5 rounded-tl-3xl  rounded-br-3xl self-center">
+        <div className="bg-[#F9F9F9] w-[405px ] h-[100px] p-5 rounded-tl-3xl  rounded-br-3xl self-center font-normal text-lg  text-second">
           <div className="flex flex-row justify-center items-center gap-3">
             <div>
               تميز الاستشاري بالاحترافية والخبرة العالية في المسائل القانونية

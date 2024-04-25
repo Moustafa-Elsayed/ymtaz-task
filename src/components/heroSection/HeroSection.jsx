@@ -42,7 +42,7 @@ function HeroSection() {
       <div className="flex justify-center items-center pb-10">
         <SearchBar title="الدليل الرقمي"/>
       </div>
-      <div className="p-3 grid grid-cols-3 gap-4 px-40">
+      <div className="p-3 grid grid-cols-3 gap-4 px-96">
         {data.data.categories.map((person) => (
           <CustomCard
             key={person.id}

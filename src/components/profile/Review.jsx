@@ -5,7 +5,7 @@ import Num from "../../images/num.svg";
 
 const Review = () => {
   return (
-    <div className="w-[709px]  bg-white flex flex-col    gap-4 rounded-lg">
+    <div className="w-[709px]  bg-white flex flex-col    gap-4 rounded-lg font-normal text-lg  text-second ">
       <div className="flex flex-row items-center justify-around p-3">
         <div>
           <Image src={Num} width={42} height={40} alt="person" />
@@ -16,7 +16,7 @@ const Review = () => {
         >
           <Image src={Ratingg} width={120} height={24} alt="person" />
           <span>التقييم العام</span>
-          <span>
+          <span className="max-w-[80%]">
             “ استشارى ممتاز ومحترف وواعى بشكل كبير بمختلف القضايا القانونية
             والفقهية
           </span>
@@ -34,7 +34,7 @@ const Review = () => {
         >
           <Image src={Ratingg} width={120} height={24} alt="person" />
           <span>التقييم العام</span>
-          <span>
+          <span className="max-w-[80%]">
             “ استشارى ممتاز ومحترف وواعى بشكل كبير بمختلف القضايا القانونية
             والفقهية
           </span>

@@ -13,20 +13,24 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        'sans': ['Almarai', ],
+        sans: ["Almarai"],
       },
       fontSize: {
-        'main_title': '32px', 
-        "title":"20px",
-        'header': '14px', 
+        main_title: "32px",
+        Second_title: "28px",
+        third_title: "24px",
+        title: "20px",
+        header: "14px",
       },
       fontWeight: {
-        'normal': 400,
-        'medium': 500,
-        'bold': 700,
-        'extrabold': 800,
-
-      
+        normal: 400,
+        medium: 500,
+        bold: 700,
+        extrabold: 800,
+      },
+      colors: {
+        main: "#2C4768",
+        second: "#A3A4A5 ",
       },
     },
   },

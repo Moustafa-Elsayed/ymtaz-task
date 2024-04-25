@@ -7,6 +7,7 @@ import PersonCard from "@/components/profile/PersonCard";
 import Define from "@/components/profile/Define";
 import Rating from "@/components/profile/Rating";
 import Review from "@/components/profile/Review";
+import InfoCard from "@/components/profile/InfoCard";
 
 const DynamicData = () => {
   const router = useRouter();
@@ -37,8 +38,10 @@ const DynamicData = () => {
   if (error) return <div>Error: {error.message}</div>;
 
   return (
-    <div className="flex flex-row justify-between items-center gap-5 px-10">
-      <div>shdhksd</div>
+    <div className="flex flex-row justify-center items-start gap-5 px-10">
+      <div>
+        <InfoCard />
+      </div>
       <div className="flex flex-col gap-3 justify-center items-center">
         <PersonCard data={data} />
         <Define />
