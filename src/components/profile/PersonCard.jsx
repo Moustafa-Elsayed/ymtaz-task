@@ -3,8 +3,9 @@ import React from "react";
 import Crown from "../../images/crown.svg";
 import Rating from "../../images/rating.svg";
 import Group from "../../images/Group.svg";
+import Star from "../../images/star.svg"
+
 const PersonCard = ({ data }) => {
-  console.log(data);
   return (
     <>
       <div className="flex flex-col justify-between items-end  bg-white shadow-sm  w-[709px] h-[409px] p-3 rounded-lg">
@@ -23,13 +24,17 @@ const PersonCard = ({ data }) => {
               <Image src={Rating} width={120} height={24} alt="person" />
             </div>
           </div>
-          <Image
+          <div className="relative">
+            <Image
             src={data.data.lawyer.logo}
             width={121}
             height={121}
             alt="person"
-            className="rounded-full"
+            className="rounded-full "
           />
+          <Image src={Star} width={24} height={24} alt="alt" className="absolute top-0 right-2" />
+          </div>
+          
         </div>
         <div className="bg-[#F9F9F9] w-[405px ] h-[100px] p-5 rounded-tl-3xl flex flex-col gap-5  rounded-br-3xl self-center font-normal text-lg  text-second">
           <div className="flex flex-row justify-center items-center gap-5">

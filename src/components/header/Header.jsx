@@ -4,7 +4,7 @@ import Image from "next/image";
 import BurgerIcon from "../../images/Burger.svg";
 import Logo from "../../images/logopng 2.svg";
 // links
-const Links = [];
+
 const Header = () => {
   return (
     <div>
@@ -15,22 +15,22 @@ const Header = () => {
 
         <ul className="flex gap-5 flex-row-reverse text-header font-bold">
           <li>
-            <a href="">الرئيسية</a>
+            <a href={"/"}>الرئيسية</a>
           </li>
           <li>
-            <a href="">من نحن</a>
+            <a href={"/"}>من نحن</a>
           </li>
           <li>
-            <a href="">اتصل بنا</a>
+            <a href={"/"}>اتصل بنا</a>
           </li>
           <li>
-            <a href="">الدعم الفني </a>
+            <a href={"/"}>الدعم الفني </a>
           </li>
           <li>
-            <a href="">أرقام التشغيل</a>
+            <a href={"/"}>أرقام التشغيل</a>
           </li>
           <li>
-            <a href="">سياسة الخصوصية</a>
+            <a href={"/"}>سياسة الخصوصية</a>
           </li>
         </ul>
         <Image src={Logo} width={138} height={67} alt="logo" />
