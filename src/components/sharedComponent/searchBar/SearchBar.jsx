@@ -3,11 +3,11 @@ import React from "react";
 import Search from "../../../images/Search.svg";
 import Filter from "../../../images/bars.svg";
 
-const SearchBar = () => {
+const SearchBar = ({title}) => {
   return (
     <div className="flex flex-col justify-center items-center gap-5">
       <div>
-        <div className="text-main_title font-bold">الدليل الرقمي</div>
+        <div className="text-main_title font-bold">{title}</div>
       </div>
       <div>
         <div className=" w-[723px] h-[64px]  rounded-[6px] border border-[#DADADA] flex justify-around items-center ">

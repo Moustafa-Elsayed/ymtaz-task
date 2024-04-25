@@ -1,9 +1,7 @@
-import SearchBar from "@/components/sharedComponent/searchBar/SearchBar";
 import React from "react";
 import axios from "axios";
 import { client_url } from "@/constats/constant";
 import { useQuery } from "@tanstack/react-query";
-import { useRouter } from "next/router";
 import CustmomId from "@/components/CustmomId";
 
 const DynamicData = () => {
@@ -43,7 +41,7 @@ const DynamicData = () => {
 
   return (
     <>
-      <SearchBar />
+      
       <CustmomId data={data} />
     </>
   );

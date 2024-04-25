@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const CustomCard = ({ src, title, header,href }) => {
+const CustomCard = ({ src, title,header,href }) => {
   return (
     <Link href={href} className="group flex flex-col justify-center items-center rounded-[18px]  w-[282px] h-[270px] shadow-lg bg-[#F9F9F9] hover:bg-gradient-to-b from-[#DDB762] to-[#887857] transition duration-300">
     <div className="flex flex-col justify-center items-center">
