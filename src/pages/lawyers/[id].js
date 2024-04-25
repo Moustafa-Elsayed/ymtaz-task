@@ -1,9 +1,9 @@
-import React from 'react'
+import { useRouter } from "next/router";
+import React from "react";
 
 const DynamicData = () => {
-  return (
-    <div>index</div>
-  )
-}
+  const router = useRouter();
+  return <div>{router.query.id}</div>;
+};
 
-export default DynamicData
+export default DynamicData;
