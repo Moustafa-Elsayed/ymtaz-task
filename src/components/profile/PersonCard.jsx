@@ -31,8 +31,8 @@ const PersonCard = ({ data }) => {
             className="rounded-full"
           />
         </div>
-        <div className="bg-[#F9F9F9] w-[405px ] h-[100px] p-5 rounded-tl-3xl  rounded-br-3xl self-center font-normal text-lg  text-second">
-          <div className="flex flex-row justify-center items-center gap-3">
+        <div className="bg-[#F9F9F9] w-[405px ] h-[100px] p-5 rounded-tl-3xl flex flex-col gap-5  rounded-br-3xl self-center font-normal text-lg  text-second">
+          <div className="flex flex-row justify-center items-center gap-5">
             <div>
               تميز الاستشاري بالاحترافية والخبرة العالية في المسائل القانونية
             </div>

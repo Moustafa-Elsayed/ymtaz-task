@@ -11,7 +11,7 @@ const CustmomId = ({ data }) => {
   return (
     <>
     <SearchBar  title="محامي مرخص"/>
-      <div className="p-3 grid grid-cols-3 gap-4 px-96">
+      <div className="p-3 grid grid-cols-3 gap-4 px-80">
         {data.data.lawyers.map((person) => (
           <Link
             key={person.id}
