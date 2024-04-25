@@ -41,7 +41,6 @@ const DynamicData = () => {
 
   return (
     <>
-      
       <CustmomId data={data} />
     </>
   );

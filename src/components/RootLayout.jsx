@@ -3,7 +3,7 @@ import Header from "./header/Header";
 
 const RootLayout = ({ children }) => {
   return (
-    <div>
+    <div className="bg-[#F9F9F9] ">
       <Header />
       {children}
     </div>
