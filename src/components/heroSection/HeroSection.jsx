@@ -40,7 +40,7 @@ function HeroSection() {
   return (
     <>
       <div className="flex justify-center items-center pb-10">
-        <SearchBar title="الدليل الرقمي"/>
+        <SearchBar title="الدليل الرقمي" data={data}/>
       </div>
       <div className="p-3 grid grid-cols-3 gap-4 px-80">
         {data.data.categories.map((person) => (
